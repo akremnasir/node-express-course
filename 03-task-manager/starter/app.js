@@ -14,7 +14,7 @@ app.use(express.static('./public'))
 
 //routes
 
-app.use('/api/v1/tasks', tasks)
+app.use('/api/v1/products', tasks)
 
 app.use(notFound)
 app.use(errorHandlerMiddleware)
